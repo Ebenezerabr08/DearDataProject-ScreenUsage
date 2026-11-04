@@ -40,6 +40,8 @@ void loadData() {
     Response response = new Response(id, time, app, purpose, emotion);
     responses.add(response);
     }
+//this print statement will give me an indication of how many itemshave been read from the database and will be displayed in my console 
+    println("Total responses stored: " + responses.size());
   }
 }
 
